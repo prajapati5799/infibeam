@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="61.6px" height="71.6px" viewBox="0 0 61.6 71.6" style="enable-background:new 0 0 61.6 71.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#333E63;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F37020;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2_1_">
+	<g id="Layer_3">
+		<path class="st0" d="M1,45.7c0,0,13-9.3,29.8,0c16.8-9.3,29.8,0,29.8,0V5.1c0,0-13-9.3-29.8,0C14-4.2,1,5.1,1,5.1V45.7z"/>
+		<line class="st0" x1="30.8" y1="5.1" x2="30.8" y2="70.6"/>
+		<ellipse transform="matrix(0.8499 -0.527 0.527 0.8499 -25.2282 28.5777)" class="st0" cx="37.5" cy="58.6" rx="8" ry="4.1"/>
+		<ellipse transform="matrix(0.527 -0.8499 0.8499 0.527 -34.1076 45.7132)" class="st0" cx="24" cy="53.5" rx="4.1" ry="8"/>
+		<line class="st1" x1="4.8" y1="70.6" x2="56.8" y2="70.6"/>
+		<path class="st1" d="M43.1,8.2c4.1-0.4,8.2,0.1,12.1,1.5"/>
+		<path class="st1" d="M36.7,9.7c1.5-0.6,3.1-1.1,4.7-1.3"/>
+		<path class="st1" d="M48.8,14.5c-4.1-0.4-8.2,0.1-12.1,1.5"/>
+		<path class="st1" d="M55.2,16.1c-1.5-0.6-3.1-1.1-4.7-1.3"/>
+		<path class="st1" d="M43.2,20.9c4.1-0.4,8.2,0.1,12.1,1.5"/>
+		<path class="st1" d="M36.8,22.4c1.5-0.6,3.1-1.1,4.7-1.3"/>
+		<path class="st1" d="M48.9,27.2c-4.1-0.4-8.2,0.1-12.1,1.5"/>
+		<path class="st1" d="M55.3,28.8c-1.5-0.6-3.1-1.1-4.7-1.3"/>
+		<path class="st1" d="M43.2,33.6c4.1-0.4,8.2,0.1,12.1,1.5"/>
+		<path class="st1" d="M36.8,35.1c1.5-0.6,3.1-1.1,4.7-1.3"/>
+		<path class="st1" d="M19,8.2c-4.1-0.4-8.2,0.1-12.1,1.5"/>
+		<path class="st1" d="M25.4,9.7c-1.5-0.6-3.1-1.1-4.7-1.3"/>
+		<path class="st1" d="M13.2,14.5c4.1-0.4,8.2,0.1,12.1,1.5"/>
+		<path class="st1" d="M6.9,16.1c1.5-0.6,3.1-1.1,4.7-1.3"/>
+		<path class="st1" d="M18.9,20.9c-4.1-0.4-8.2,0.1-12.1,1.5"/>
+		<path class="st1" d="M25.3,22.4c-1.5-0.6-3.1-1.1-4.7-1.3"/>
+		<path class="st1" d="M13.2,27.2c4.1-0.4,8.2,0.1,12.1,1.5"/>
+		<path class="st1" d="M6.8,28.8c1.5-0.6,3.1-1.1,4.7-1.3"/>
+		<path class="st1" d="M18.9,33.6c-4.1-0.4-8.2,0.1-12.1,1.5"/>
+		<path class="st1" d="M25.3,35.1c-1.5-0.6-3.1-1.1-4.7-1.3"/>
+	</g>
+</g>
+</svg>

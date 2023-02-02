@@ -1,0 +1,162 @@
+/*
+* Fix after HTML implement
+*/
+.news-list {display: block;}
+.news-list h3{font-size: 2rem;color: #316eb3;border-bottom: 3px solid #306db2;margin-bottom: 2.5rem; padding-bottom: 10px;}
+.news-list .custom-title-drop select{max-width:250px; margin-left: auto;}
+.news-list .news-box {display: block; margin-bottom: 30px; background: #fff; padding: 30px 20px;background: #fff;margin-bottom: 20px;border: 1px solid #e0e0e0;position: relative;display: block;}
+.news-list .news-box .img {display: block;}
+.news-list .news-box .info .news-name {display: block; color: rgba(51,62,99,0.5); font-size: 12px; line-height: 16px; padding-bottom: 25px;}
+.news-list .news-box .info .read-more {position: static;}
+.news-list .news-box .info .news-name img {display: inline-block; vertical-align: top; padding: 0 12px 0 0;}
+.news-list .news-box .info .news-title {display: block; color: #333E63; line-height: 30px; font-size: 20px; font-weight: 400; padding-bottom: 10px; }
+.news-list .news-box .info .post-col {color: #949494;}
+.news-list .news-box .info .news-date {display: block; line-height: 22px; font-size: 14px; color: #333E63;}
+
+.stock-page {display: block;}
+.stock-page .section-title  {display: inline-block; width: 100%; }
+.stock-page .stock-info {display: block; width: 100%; background: #F4F7FB; padding: 25px; margin-top: 30px; }
+.stock-page .stock-info h4 {display: block; text-align: center; font-size: 30px; color: #F37020; line-height: 46px; margin: 0px; padding-bottom: 5px; font-weight: 600; letter-spacing: 1px;}
+.stock-page .stock-info p {display: block; text-align: center; line-height: 26px; color: #333E63; font-size: 16px; margin: 0px; letter-spacing: 1px;}
+.stock-page .stock-list {display: block; padding: 10px 0 0 0;}
+.stock-page .stock-list .stock-box {background: #fff; box-shadow: 0 6px 24px rgba(174,174,186,0.16); text-align: center; margin-top: 30px; }
+.stock-page .stock-list .stock-box h4 {display: block; line-height: 42px; padding: 25px 0; font-weight: 600; font-size: 22px; background: #333E63; color: #fff; letter-spacing: 1px;}
+.stock-page .stock-list .stock-box h4 a { color: #fff; }
+.stock-page .stock-list .stock-box p {display: block; line-height: 28px; color: #333E63; font-size: 18px; margin: 0px; padding: 25px; letter-spacing: 1px;}
+
+
+.investor-page .section-title  {display: inline-block; width: 100%; }
+.investor-page .stock-info {display: block; padding-bottom: 80px; }
+.investor-page .stock-info p {line-height: 28px; font-size: 18px; letter-spacing: 1px;}
+.investor-page .stock-info ul li {font-size: 18px; line-height: 28px; letter-spacing: 1px;}
+ul.number-list li {counter-increment: number-counter; position: relative; padding-left: 20px }
+ul.number-list li:before {content: counter(number-counter) ". "; position: absolute; left: 0px; top: 0px; }
+.officer-info {display: block; padding-bottom: 100px;  }
+.officer-info .officer-profile {display: block; max-width: 586px; padding-bottom: 50px; position: relative;}
+.officer-info .officer-profile .border {position: absolute; bottom: 0px; left: 39px; right: 93px; }
+.officer-info .officer-profile .profile-img {display: block; padding:0 37px 0 63px; position: relative; z-index: 2;}
+.officer-info .officer-profile .profile-img:after {width: 68px; height: 180px; content: ""; background: url(../images/profile-dots.png) no-repeat left top; position: absolute; right: -27px; top: 10px; }
+.officer-info .officer-profile .profile-text {display: block; background: #fff; border-radius: 14px;  box-shadow: 0 6px 24px rgba(174,174,186,0.16); padding:30px; text-align: center; position: relative; z-index: 2;}
+.officer-info .officer-profile .profile-text .name {display: block; font-size: 24px; line-height: 36px; color: #333E63; font-weight: 600; letter-spacing: 1px;}
+.officer-info .officer-profile .profile-text .post {display: block; font-size: 20px; letter-spacing: 1px; line-height: 28px; }
+.officer-info .officer-address h4 {display: block; line-height: 26px; letter-spacing: 1px; font-weight: 600; font-size: 16px; margin: 0px; padding-bottom: 15px; }
+.investor-page .officer-address .address-slider {display: block; padding: 0px 0 0 30px; position: relative; max-width: 380px; font-size: 16px; color: #333E63; line-height: 34px; }
+.investor-page .officer-address .address-slider.add {padding-bottom: 25px; }
+.investor-page .officer-address .address-slider .fa {position: absolute; top: 9px; left: 0px; color: #F37020; font-size: 18px; }
+.investor-page .officer-address .address-slider a {font-size: 16px; color: #333E63; line-height: 34px; }
+.investor-page .office-list .section-title {display: inline-block; width: 100%; padding-bottom: 40px; }
+.investor-page .office-list .address-slider {line-height: 28px; }
+.investor-page .office-list .address-slider .fa {top: 8px; }
+.investor-page .office-list .city {display: block; padding:0 0 36px 96px; position: relative; }
+.investor-page .office-list .city .img {position: absolute; left: 0px; top: 0px; }
+.investor-page .office-list .city h4 {font-size: 30px; line-height: 38px; font-weight: 600; margin: 0px; padding: 10px 0 0 0;}
+.investor-page .office-list .city p {font-size: 16px; line-height: 26px; margin: 0px; letter-spacing: 1px; }
+
+.ccavenue-page .section-title h2 {display: inline-block; max-width: 826px; }
+.payment-business {display: block; }
+.payment-business .business-slide {padding: 40px 0 20px 0; display: inline-block; width: 100%; }
+.payment-business .business-slide .img {display: block; width: 100%; position: relative;}
+.payment-business .business-slide .img img {width: 100%}
+.payment-business .business-slide .img .text {position: absolute;bottom: 0px;left: 0px;width: 100%;padding: 18px;line-height: 28px;font-size: 18px;color: #fff;font-weight: 500;background: rgba(0, 0, 0, 0.6);}
+.payment-business .business-slide .img .logo-img {display: block; margin-top: -15px; padding-bottom: 10px;  }
+.payment-business .business-slide .img .logo-img img {width: auto; max-width: 100%; }
+.payment-business .business-slide h3 {display: block; padding: 20px 0; font-size: 24px; line-height: 36px; margin: 0px; font-weight: 600; letter-spacing: 1px; }
+.payment-business .business-slide p  {font-size: 16px; line-height: 34px; }
+.payment-business .business-slide h5 {font-weight: 500; font-style: italic; line-height: 36px; color: #F37020; font-size: 24px; letter-spacing: 1px;  margin: 0px; }
+.payment-business .business-slide .row {margin: 0 -25px;}
+.payment-business .business-slide .col-md-5,
+.payment-business .business-slide .col-md-7 {padding: 0 25px; }
+
+.icon-boxBg {display: block; padding:60px 0; background: #F4F7FB; }
+.icon-boxBg .section-title {padding-bottom: 50px; display: inline-block; width: 100%; }
+.icon-boxBg .section-title h2 {display: inline-block; max-width: 960px}
+.icon-boxBg .box-view {display: block; background: #fff; padding:20px; text-align: center; border-radius: 10px; box-shadow: 0 6px 24px rgba(174,174,186,0.16); margin-bottom: 30px; }
+.icon-boxBg .box-view .icon {display: block; padding:10px 0 14px 0;}
+.icon-boxBg .box-view h4 {display: block; font-size: 18px; color: #333E63; line-height: 30px; font-weight: 600; padding-bottom: 15px; max-width: 168px; margin: auto;}
+.icon-boxBg .box-view p {font-size: 16px; line-height: 28px; margin: 0px;}
+
+.text-bgBox {display: block; padding: 50px 0;}
+.text-bgBox .bg-box {display: block; width: 100%; background: #F4F7FB; padding: 28px 30px 30px 35px; position: relative; margin-bottom: 20px; }
+.text-bgBox .bg-box:after {position: absolute; top: 28px; left: 19px; font-family:'FontAwesome'; content:"\f0da"; color: #F37020; font-size: 22px; line-height: 30px; }
+.text-bgBox .bg-box h5 {display: block; font-size: 18px; font-weight: 600; line-height: 30px; padding-bottom: 8px; margin: 0px; }
+.text-bgBox .bg-box p {display: block; font-size: 18px; line-height: 30px; margin: 0px; }
+.text-bgBox .bg-box a {font-size: 16px; color: #F37020; line-height: 26px; margin-top: 15px; display: inline-block;}
+
+.clients-logo {display: block; padding:50px 0; }
+.clients-logo .logo-box {display: block; text-align: center; background: #fff; box-shadow: 0 6px 24px rgba(174,174,186,0.16); margin-bottom: 20px; }
+
+.contract .business-slide h3 {padding-top: 50px; }
+.participants-block {display: block; padding-top: 50px;  }
+.participants-block .row {margin:0px;}
+.participants-block .col-md-6 {padding: 0px;}
+.participants-block .participants-box {padding:50px; border-right: solid 1px #CCCCCC; border-top: solid 1px #CCCCCC;  }
+.participants-block .participants-box .icon {display: block; padding-bottom: 15px; }
+.participants-block .participants-box h4 {font-size: 18px; font-weight: 600; margin: 0px; line-height: 36px; padding-bottom: 10px; }
+.participants-block .participants-box p {font-size: 18px; line-height: 36px; margin: 0px; }
+.participants-block .col-md-6:nth-child(2n) .participants-box {border-right: none;}
+.participants-block .col-md-6:first-child .participants-box,
+.participants-block .col-md-6:nth-of-type(2) .participants-box {border-top: none;}
+
+.interested-box {background: #333E63; padding:30px 190px 30px 160px; position: relative; margin-top: 50px;}
+.interested-box .icon {position: absolute; left:34px; top: 17px; }
+.interested-box .more-btn {position: absolute; top: 47px; right: 32px; }
+.interested-box .more-btn a {background: #fff; border-radius: 7px;  padding: 0 25px; line-height: 48px; font-size: 21px; color: #F37020; display: inline-block; max-width: 172px; text-transform: capitalize;}
+.interested-box .more-btn a:hover {background: #F37020; color: #fff; }
+.interested-box .text {display: block; color: #fff; line-height: 40px; font-size: 24px; font-weight: 600; }
+
+.process-chain {padding-top: 50px; }
+
+.single-pdf header, .single-pdf footer {
+    display: none;
+}
+
+.office-list .officer-address h4 {
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 991px) {
+    .stock-page .stock-list .stock-box h4 {font-size: 18px; line-height: 24px; }
+    .stock-page .stock-list .stock-box p {font-size: 16px; line-height: 24px; }
+    .officer-info .officer-profile .profile-text .name {font-size: 20px;}
+    .officer-info .officer-profile .profile-text .post {font-size: 16px; }
+    .officer-info .officer-profile .profile-img:after {display: none;}
+    .investor-page .office-list .city h4 {font-size: 24px; }
+    .investor-page .office-list .city p {font-size: 14px; }
+    .payment-business .business-slide h3 {font-size: 20px; line-height: 30px; }
+    .payment-business .business-slide p {font-size: 14px; line-height: 28px; }
+    .payment-business .business-slide .row {margin: 0 -15px;}
+    .payment-business .business-slide .col-md-5,
+    .payment-business .business-slide .col-md-7 {padding: 0 15px;}
+    .participants-block .participants-box {border:none !important; padding: 30px 0; border-bottom: solid 1px #CCCCCC !important; }
+    .participants-block {padding-top: 30px; }
+}
+
+@media screen and (max-width: 767px) {
+    .stock-page .stock-info h4 {font-size: 26px; line-height: 36px; }
+    .investor-page .stock-info p {font-size: 16px; }
+    .investor-page .stock-info ul li {font-size: 16px; }
+    .officer-info .officer-profile {margin-bottom: 30px; }
+    .office-list .officer-address {padding-bottom: 30px; }
+    .investor-page .office-list .section-title {padding-bottom: 20px; }
+    .officer-info {padding-bottom: 50px; }
+    .clients-logo .col-md-2 {width: 33.33%; float: left;}
+    .payment-business .business-slide {padding: 20px 0 0 0; }
+    .payment-business {padding-bottom: 20px; }
+    .icon-boxBg {padding: 40px 0; }
+    .icon-boxBg .section-title {padding-bottom: 30px; }
+    .text-bgBox {padding: 20px 0 0px 0; }
+    .interested-box {text-align: center; padding: 30px 20px;}
+    .interested-box .icon {position: static;}
+    .interested-box .more-btn {position: static;}
+    .interested-box .text {padding: 20px 0; }
+    .interested-box .text {font-size: 20px; line-height: 32px; }
+    .payment-business .business-slide .img .text {font-size: 15px;line-height: 25px;padding: 15px;}
+}
+
+@media screen and (max-width: 479px) {
+    .clients-logo .col-md-2 {width: 50%; float: left;}
+}
