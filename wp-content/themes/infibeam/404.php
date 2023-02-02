@@ -10,6 +10,10 @@
 get_header();
 
 ?>
+
+
+
+
 	<section class="error-page-main section-padding">
 	    <div class="container">
 	      <div class="text-block text-center">
